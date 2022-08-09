@@ -21,8 +21,8 @@ git clone https://github.com/Rudxain/personal-bright.git
 ## Run
 - From CLI:
 ```sh
-cd personal-bright
-./personal-bright.py [period=3]
+cd personal-bright/src/
+./main.py [period=3]
 ```
 - Or just open the file on Linux, and it will default to `period=3`
 - Or import the file into another script, then call `main`
@@ -30,5 +30,5 @@ cd personal-bright
 ## Example
 Set sampling interval to 5 seconds:
 ```sh
-personal-bright.py 5
+./main.py 5
 ```
