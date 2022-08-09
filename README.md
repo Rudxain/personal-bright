@@ -1,2 +1,2 @@
-# personal-bright
-Personalized adaptive brightness (using camera). ML without AI
+# DISCLAIMER
+This doesn't work yet! Please be patient
