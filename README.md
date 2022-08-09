@@ -39,6 +39,6 @@ Run with a sampling interval of 5 seconds:
 ```
 
 # Privacy
-As you can see in the source code, all captured photos from the camera can only be accesed by the script, and are taken with the lowest resolution that the driver accepts. No network access is performed. No storage access is performed. No environment variables are read/written. Your preferences are forgotten when the program is killed. Photos are not accumulated, they are discarded and replaced by a new one, everytime a sample is taken.
+As you can see in the source code, captured photos are not shared with 3rd-parties, and are taken with the lowest resolution that the driver accepts. No network access is performed. No storage access is performed. No environment variables are read/written. Your preferences are forgotten when the program is killed. Photos are not accumulated, they are discarded and replaced by a new one, everytime a sample is taken.
 
 This means that memory-dumps are unlikely to contain sensitive data
