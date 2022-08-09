@@ -1,5 +1,7 @@
 # DISCLAIMER
-This doesn't work yet! Please be patient
+This doesn't work yet! Please be patient.
+
+BTW, this repo may **stop using Python at any time.** It may switch to Rust, or any other lang appropiate for the task.
 
 # personal-bright
 This is inspired by Android's "Adaptive Brightness" feature, which learns about the user's preferences at runtime, and adjusts display brightness accordingly based on ambient light.
