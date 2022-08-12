@@ -1,12 +1,10 @@
 # DISCLAIMER
-This doesn't work yet! Please be patient.
+This doesn't work at all (yet)! Please be patient.
 
 BTW, this repo may **stop using Python at any time.** It may switch to Rust, or any other lang appropiate for the task.
 
-# personal-bright
-This is inspired by Android's "Adaptive Brightness" feature, which learns about the user's preferences at runtime, and adjusts display brightness accordingly based on ambient light.
-
-This is an example of machine learning without artificial intelligence, because the script is a simple algorithm, not a neural network.
+# About this brach
+This is the development branch, hence the name `dev`. It's made for the development of the ML feature
 
 # System requirements
 ## Hardware
@@ -21,7 +19,7 @@ This is an example of machine learning without artificial intelligence, because 
 ```sh
 git clone https://github.com/Rudxain/personal-bright.git
 ```
-- Or [download the ZIP](https://github.com/Rudxain/personal-bright/archive/refs/heads/main.zip) from GH
+- Or [download the ZIP](https://github.com/Rudxain/personal-bright/archive/refs/heads/dev.zip) from GH
 
 ## Run
 - From CLI:
