@@ -21,6 +21,8 @@ git clone https://github.com/Rudxain/personal-bright.git
 ```
 - Or [download the ZIP](https://github.com/Rudxain/personal-bright/archive/refs/heads/dev.zip) from GH
 
+> Installation instructions will be available in the future. This repo is not a valid Python package, it cannot be installed with PiP
+
 ## Run
 - From CLI:
 ```sh
