@@ -36,32 +36,16 @@ def main(*args: str):
 
 	period = float(args[1]) if len(args) > 1 else DEFAULT_T
 
-	ambient_old = None
-	set_display_old = None
-	user_display_old = None
-
 	light_map = [u8_to_percent(b) for b in range(0x100)]
 
+	ambient_old = None
 	while True:
 		ambient_new = round(mean_light(take_photo()))
 
 		#save energy and time
 		if ambient_old != ambient_new:
 			ambient_old = ambient_new
-
-			if user_display_old != user_display_new:
-				user_display_old = user_display_new
-
-			user_display_new = sbc.get_brightness(display=0)
-			if set_display_old == None:
-				set_display_old = user_display_new
-
-			if light_map[ambient_new] != user_display_new:
-				light_map[ambient_new] = user_display_new
-			else:
-				set_display_new = light_map[ambient_new]
-				sbc.fade_brightness(finish=set_display_new, blocking=True, display=0)
-		set_display_old = set_display_new
+			sbc.fade_brightness(finish=light_map[ambient_new], blocking=True, display=0)
 		time.sleep(period)
 
 if __name__=='__main__':
