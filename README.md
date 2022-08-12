@@ -8,8 +8,8 @@ BTW, this repo may **stop using Python at any time.** It may switch to Rust, or 
 
 # System requirements
 ## Hardware
-- Camera. (no light-sensors required). Devices with light-sensors will (probably) already have this feature built-in.
-- Display. Read [SBC docs](https://crozzers.github.io/screen_brightness_control/extras/Installing%20On%20Linux.html) for more info.
+- Camera. (no light-sensors required). Devices with light-sensors will (probably) already have a similar feature built-in.
+- Display/screen. Read [SBC docs](https://crozzers.github.io/screen_brightness_control/extras/Installing%20On%20Linux.html) for more info.
 ## Software
 - Any Debian-based GNU-Linux distro. It may work on Windows (not guaranteed).
 
