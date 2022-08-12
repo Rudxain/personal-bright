@@ -1,17 +1,17 @@
+# About this brach
+This is the development branch, hence the name `dev`. It's made for the development of the ML feature.
+
 # DISCLAIMER
 This doesn't work at all (yet)! Please be patient.
 
 BTW, this repo may **stop using Python at any time.** It may switch to Rust, or any other lang appropiate for the task.
 
-# About this brach
-This is the development branch, hence the name `dev`. It's made for the development of the ML feature
-
 # System requirements
 ## Hardware
 - Camera. (no light-sensors required). Devices with light-sensors will (probably) already have this feature built-in.
-- Built-in display. Or an external display (with some limitations). Read [SBC docs](https://crozzers.github.io/screen_brightness_control/extras/Installing%20On%20Linux.html) for more info.
+- Display. Read [SBC docs](https://crozzers.github.io/screen_brightness_control/extras/Installing%20On%20Linux.html) for more info.
 ## Software
-- Any Debian-based GNU-Linux distro. It may work on Windows (not guaranteed), and non-GNU Unix systems (eg: MacOS) (not guaranteed).
+- Any Debian-based GNU-Linux distro. It may work on Windows (not guaranteed).
 
 # Usage
 ## Clone
