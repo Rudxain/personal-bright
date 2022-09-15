@@ -1,0 +1,9 @@
+[project]
+dependencies = [
+	"screen-brightness-control >= 0.15, < 1",
+	"opencv-python >= 4.6, < 5"
+]
+
+[tool.autopep8]
+max_line_length = 96 #mean 0d64 0d128
+ignore = "W191"
