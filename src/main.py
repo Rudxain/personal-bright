@@ -37,6 +37,8 @@ def main(*args: str):  # this increases versatility by taking args from either C
 
 	period = float(args[1]) if len(args) > 1 else DEFAULT_T
 
+	# despite `u8_to_percent` being efficient,
+	# the negligible memory use of this `list` is worth the eager-memoization,
 	light_map = [u8_to_percent(b) for b in range(0x100)]
 
 	ambient_old = None
