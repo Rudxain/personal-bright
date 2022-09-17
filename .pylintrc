@@ -1,0 +1,11 @@
+[MESSAGES CONTROL]
+disable=no-member, #for cv2
+	missing-module-docstring
+
+[FORMAT]
+indent-string='	'
+max-line-length=96
+
+[BASIC]
+#because constants aren't detect as such
+good-names-rgxs=[A-Z_][A-Z\d_]*$

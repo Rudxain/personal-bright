@@ -7,9 +7,9 @@ from numpy import ndarray as nda
 import cv2
 
 
-def u8_to_percent(b: int):
-	'''convert a byte into its corresponding ratio, then scale by a factor of a hundred'''
-	return b / 0xff * 100
+def u8_to_percent(byte: int):
+	'''convert a `byte` into its corresponding ratio, then scale by a factor of a hundred'''
+	return byte / 0xff * 100
 
 
 def take_lil_photo() -> nda:
@@ -27,13 +27,15 @@ def take_lil_photo() -> nda:
 
 
 def main(*args: str):  # this increases versatility by taking args from either CLI or script
+	'''entry point'''
 	DEFAULT_T: Final = 3.0
 
-	HELP_TXT: Final = f'usage: {args[0]} [period={DEFAULT_T}]\n`period` is the sample-interval in seconds'
+	HELP: Final = f'usage: {args[0]} [period={DEFAULT_T}]\n'\
+		'`period` is the sample-interval in seconds'
 
 	if '-h' in args or '--help' in args:
-		print(HELP_TXT)
-		return HELP_TXT
+		print(HELP)
+		return HELP
 
 	period = float(args[1]) if len(args) > 1 else DEFAULT_T
 
