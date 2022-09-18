@@ -3,10 +3,15 @@ name = "personal-bright"
 description = "Personalized adaptive brightness (using camera). ML without AI"
 version = "0.0.0"
 requires-python = ">=3.8"
+
 dependencies = [
 	"screen-brightness-control>=0.15.0,<1",
 	"opencv-python>=4.6.0,<5"
 ]
+
+[project.optional-dependencies]
+lint = ["pylint", "autopep8"]
+ci = ["pylint"]
 
 [tool.autopep8]
 max_line_length = 96 #mean 0d64 0d128
