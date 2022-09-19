@@ -4,6 +4,10 @@ This is inspired by Android's "Adaptive Brightness" feature, which learns about 
 
 This is an example of machine learning without artificial intelligence, because the script is a simple algorithm, not a neural network.
 
+## Archive
+
+This repo has been archived because there are better alternatives, and I don't have time nor will to maintain it anymore.
+
 ## DISCLAIMER
 
 This doesn't work as intended yet! Currently, it uses a hardcoded light-map, instead of learning user preferences. Please be patient.
